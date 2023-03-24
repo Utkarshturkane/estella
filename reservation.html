@@ -6,16 +6,7 @@
 
 <head>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0QFL23YD"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-YJ0QFL23YD');
-    </script>
-    <!-- Google tag End  -->
+ 
 
     <!-- Script -->
     <!-- <script>
@@ -278,74 +269,7 @@
     </script>
 
 
-    <!-- Form Script -->
-    <script> 
-        
-        $(document).ready(function () {
-
-            function getFormData($form) {
-                var unindexed_array = $form.serializeArray();
-                var indexed_array = {};
-
-                $.map(unindexed_array, function (n, i) {
-                    indexed_array[n['name']] = n['value'];
-                });
-
-                return indexed_array;
-            }
-
-            $('#reservationForm').submit(function (event) {
-                event.preventDefault();
-                // Get form data
-                var formData = $('#reservationForm').serializeArray();
-                var jsonData = {};
-                $.each(formData, function () {
-                    jsonData[this.name] = this.value;
-                });
-                let data = {
-                    "data": jsonData,
-                    "subject": "Reservation Form",
-                    "tos": ["estella@sbeh.in"],                    
-                    "from_source": "estella-reservation@estellamumbai.in"
-                }
-
-                console.log(JSON.stringify(data));
-
-                // Submit form data using AJAX
-                fetch('https://mg6b3wltowcczauzm7kwe2xyme0zckdh.lambda-url.ap-south-1.on.aws/', {
-                    method: 'POST',
-                    body: JSON.stringify(data)
-                })
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error('Network response was not ok');
-                        }
-
-                        // =============
-                        Swal.fire({
-                            position: 'center',
-                            icon: 'success',
-                            title: 'Reservation request sent. Our team will get in touch for confirmation.',
-                            showConfirmButton: false,
-                            timer: 2300
-                            // confirmButtonText: 'OK'
-                        })
-
-                        // ===========
-                        $('#reservationForm').find('input, select, textarea').val('');
-                        return response.json();
-                    })
-                    .then(data => {
-                        console.log(data);
-                    })
-                    .catch(error => {
-                        console.error('There was a problem with the fetch operation:', error);
-                    });
-
-            });           
-
-        });
-    </script>
+   
 
       <!-- New navbar script -->
       <script>
