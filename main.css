@@ -1,0 +1,558 @@
+.reservation-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/IMG_0376.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/IMG_0376.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.news-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/IMG_0418.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/IMG_0418.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.background-color-primary{
+  background-color: #192b4d;
+}
+
+.color-white{
+  color: white !important;
+}
+
+.about-banner-image {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("./assets/images/restaurant/table-9.JPG");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/images/restaurant/table-9.JPG");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.restaurant img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: 0.2s;
+}
+
+.restaurant{
+  margin: 0px auto !important;
+  width: 80%;
+  padding: 200px 0px;
+}
+
+.restaurant .slick-dots {
+  bottom: 110px !important;
+}
+
+.restaurant .slick-prev, .slick-next {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.restaurant .slick-next {
+  right: -80px !important;
+}
+
+.restaurant .slick-prev {
+  left: -80px !important;
+}
+
+.restaurant .slick-prev:before, .slick-next:before {
+  font-size: 45px !important;
+  color:black !important;
+}
+
+.restaurant .slick-prev:before {
+  content: url('./assets/images/icons/Left-Arrow.svg') !important;
+}
+
+.restaurant .slick-next:before{
+  content:url('./assets/images/icons/Right-Arrow.svg') !important;
+}
+
+.restaurant .slick-dots li button:before{
+  font-size: 10px !important;
+}
+
+.restaurant .slick-slide{
+  overflow: hidden;
+}
+
+.restaurant img:hover{
+  transform: scale(1.1);
+}
+
+.restaurant .image-container{
+  overflow: hidden;
+  
+}
+
+.restaurant .slick-slide {
+  margin: 0 10px;
+}
+
+.restaurant-container{
+  background-color: #fff;
+}
+ 
+.career img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+
+}
+
+.career{
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  aspect-ratio: 2/1;
+}
+
+.career-container{
+ background-color: #fff;
+ color: #192b4d;
+ padding: 200px 0px;
+}
+
+.career img{
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.career .slick-prev:before{
+  content:url('./assets/images/icons/left-white.png') !important;
+}
+
+.career .slick-next:before{
+  content:url('./assets/images/icons/right-white.png') !important;
+}
+
+.career .slick-next {
+  right: -80px !important;
+}
+
+.career .slick-prev {
+  left: -80px !important;
+}
+
+.career .slick-list,.slick-track{
+  height: 100%;
+  width: 100%;
+}
+
+.career .slick-prev, .slick-next {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.career .slick-prev {
+  left: 30px !important;
+  z-index: 1;
+}
+
+.career .slick-next {
+  right: 30px !important;
+}
+
+.career-container .content  button:hover{
+ background-color: #192b4d !important;
+ color: #fff !important;
+}
+
+.slick-dots {
+  bottom: -42px !important;
+}
+
+.whisky-jazz .whisky-jazz-images img{
+  width: 80%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: 100% 100%;
+  margin: 0 auto;
+  display: block;
+  /* border-radius: 4%; */
+}
+
+.whisky-jazz{
+  background: #e5f3ff;
+  padding: 200px 0px;
+}
+
+.whisky-jazz .whisky-jazz-content p{
+  width: 80%;
+}
+
+.whisky-jazz .whisky-jazz-content h2{
+  font-size: clamp(2rem, 4vw, 3.75rem);
+  line-height: 1.1em;
+}
+
+.cusine-introduction .img-gallery-container a{
+  height: 300px;
+  width: 300px;
+}
+
+.cusine-introduction .img-gallery-container a img{
+ object-position: 50% 50%;
+ aspect-ratio: 1/2;
+}
+
+.cusine-introduction .img-gallery-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cusine-introduction{
+  padding: 200px 0px;
+}
+
+.cusine-introduction .col-12 p{
+  margin: 20px auto;
+  width: 90%;
+}
+
+.news-articles img{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.news-articles .card{
+  height: 100%;
+}
+
+.full-image-section .container .button{
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.index-page .button{
+  min-width: 250px;
+}
+
+/* .index-page .container{
+  margin-top: 8.5rem;
+} */
+
+.index-page .decorative-line {
+  height: 40px;
+}
+
+.w-webflow-badge{
+  display: none !important;
+}
+
+.footer .container{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footer .container .footer-columns{
+  text-align: center;
+}
+
+.navigation .container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+
+.media-banner .container{
+  position: absolute;
+  top: 30%;
+}
+
+.media-banner .decorative-line-div .decorative-line{
+  height: 40px;
+}
+
+.about-content .container{
+  position: absolute;
+  top: 40%;
+}
+
+.index-page .container{
+  max-width: 100% !important;
+  padding: 0px !important;
+  margin-left: 0px !important;
+  position: absolute !important;
+  margin-right: 0px !important;
+  /* top: 40% !important; */
+  top: 30% !important;
+}
+
+.index-page .container p{
+  max-width: 70%;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  line-height: 1.5em;
+}
+.index-page .container h1{
+  font-size: clamp(1.6rem, 4vw, 5rem);
+  line-height: 1.1em;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #192b4d !important;
+}
+
+.slick-dots li button:before {
+  color: #192b4d !important;
+}
+
+/* .starters-containers div:last-child{
+  grid-area: 3/1/4/4;
+} */
+
+.menu-button a{
+  min-width: 250px;
+}
+
+.main-banner .wedding-events-container h1{
+  font-size: clamp(2.5rem, 4vw, 5rem);
+  line-height: 1.1em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: #ccaf7b !important;
+  background-color: #192b4d !important;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.main-banner .container p{
+  font-weight: 400 !important;
+}
+
+/* .footer-copy a{
+  opacity: 100%;
+} */
+
+/* .footer-copy a:hover {
+  font-weight: 500 !important;
+  text-decoration: none !important;
+} */
+
+.drinks{
+  width: 100%;
+}
+
+.displayNone{
+  display: none;
+}
+
+/* .main-image-slider .slider-1{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.main-image-slider .slider-2{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-3{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-4{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-image-slider .slider-5{
+  background-image: url("./assets/images/restaurant/beachfront-view.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+.slidermain{
+  /* position: relative; */
+  display: inline-block !important;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+}
+
+.top-bar{
+  width: 100%;
+  height: 5px;
+  background-color: #ccaf7b !important;
+  display: block;
+  position: absolute;
+  top: 0px;
+  transition: all 0.25s;
+  transform-origin: left center;
+  /* transform: rotate(0deg); */
+}
+
+.bottom-bar{
+  width: 100%;
+  height: 5px;
+  background-color: #ccaf7b !important;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  rotate: -7deg;
+  transition: all 0.25s;
+  transform-origin: left center;
+  /* transform: rotate(0deg); */
+}
+
+.hamburger-menu{
+  height: 25px;
+  width: 40px;
+  /* position: fixed;
+  top: 2rem;
+  left: 2.4rem; */
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 2.4rem;
+}
+
+.hamburger-menu:hover .bottom-bar{
+  rotate: 0deg;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+  /* background: #192b4d; */
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: max-content;
+  width: 100%;
+  z-index: 1000;
+  /* background: transparent; */
+}   
+
+
+.menu-items ul{
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.menu-items{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 100px;
+  /* left: 100px; */
+  /* background: #192b4d; */
+  padding-left: 9rem;
+  padding-top: 2rem;
+  transition: all 1s;
+  transition-timing-function: ease-in-out;
+  transform: translateX(-100rem);
+
+}
+
+.menu-items ul li:not(:last-child){
+  margin-bottom: 1rem;
+}
+
+.menu-items ul li a{
+  font-size: 24px;
+  font-family: Quattrocento, sans-serif;
+}
+
+.menu-items ul a:hover{
+  font-weight: 700;
+}
+
+.menu-items ul a{
+  text-decoration: none;
+  color: #ccaf7b;
+}
+
+.logo-container{
+  /* position: fixed;
+  top: 2rem;
+  right: 2.4rem; */
+  margin-top: 2rem;
+  margin-right: 2.4rem;
+}
+
+.translate{
+  transform: translateX(0rem);
+}
+.background{
+  background: #192b4d;
+}
+
+.rotate-1{
+  transform: rotate(21deg);
+}
+
+.rotate-2{
+  transform: translateY(0) rotate(-24deg);
+}
+
+.background-main{
+  display:none;
+  width: 100%;
+  height: 100vh;
+  background-color:#fff; z-index: -1;
+  position: absolute;
+  top: 0px; left: 0px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.background-main-toggled{
+  display: block;
+  background-color: #192b4d;
+}
+
+body{
+  overflow-x: hidden;
+}

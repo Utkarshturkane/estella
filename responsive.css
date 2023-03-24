@@ -1,0 +1,277 @@
+@media (min-width:1200px) {
+    /* .index-page .decorative-line-div{
+        display: block !important;
+        text-align: center;
+    } */
+
+
+}
+
+@media (max-width:1200px){
+    .career{
+        width: 80%;
+        height: auto;
+        margin: 40px auto;
+        aspect-ratio: 1/1;
+    }
+
+    .full-image-section .decorative-line-div{
+        display: none;
+    }
+
+    .founder-container .overlapping-back-image-div.overlapping-bottom-image-left{
+        margin-right: 0px !important;
+    }
+}
+
+@media (min-width: 992px){
+
+    .blog-collection-list ._3-column {
+        padding: 80px 20px !important;
+        
+    }
+
+    .blog-collection-list {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .image-right,.image-left{
+        width: 50% !important;
+        /* aspect-ratio: 1/1 !important; */
+    }
+}
+
+@media (max-width:992px){
+    
+    .book-a-catering{
+        min-width: 100%;
+    }
+
+    .founder-container .overlapping-images-column{
+        top: 0px !important;
+    }
+
+    .image-right,.image-left{
+        width: 80% !important;
+        /* aspect-ratio: 1/1 !important; */
+    }
+}
+
+
+@media (max-width: 768px){
+    .whisky-jazz .whisky-jazz-content{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .full-image-section .full-image-section-text h2{
+        font-size: 30px;
+        line-height: 34px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    /* .media-banner .decorative-line-div{
+        display: none;
+    } */
+
+    .birthday-container .overlapping-images-column{
+        margin-top: 50px;
+    }
+
+    .founder-container .overlapping-images-column{
+        position: unset !important;
+        top: unset !important;
+    }
+
+
+    /* .full-image-section .container .button {
+        min-width: 80%;
+    } */
+
+    .food-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .food-container h3{
+        text-align: center
+    }
+
+    .ambience-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .ambience-container h3{
+        text-align: center
+    }
+
+    .bar-container h2{
+        width: 100%;
+        text-align: center
+    }
+
+    .bar-container h3{
+        text-align: center
+    }
+
+    .image-right,.image-left{
+        width: 80% !important;
+        /* aspect-ratio: 1/1 !important; */
+    }
+
+    .founder-new-update div:nth-child(1){
+        position: unset !important;
+        top: unset;
+    }
+
+}
+
+@media (min-width:568px){
+    .media-banner .container {
+        position: absolute;
+        top: 40%;
+    }
+
+    .index-page .container{
+        top: 40% !important;
+    }
+}
+
+@media (max-width:568px){
+
+    .whisky-jazz .whisky-jazz-images img {
+        width: 87%;
+    }    
+
+    .index-page .container h1{
+        /* font-size: 2rem;
+        line-height: 1.1em; */
+        /* margin-top: 110px; */
+    }  
+    
+    .weddings-and-events-slider .slide-nav{
+        display: block
+    }
+
+    .weddings-and-events-slider .left-arrow,.right-arrow{
+        display: none;
+    }
+
+    /* .starters-containers div:last-child{
+        grid-area: auto;
+    }
+
+    .starters-containers div:last-child a{
+        min-width: 250px;
+    }
+    
+
+    .details{
+        margin-bottom: 50px;
+    } */
+
+    .blue-section .intro-image-right,.intro-image-left{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .index-page .button {
+        margin-top: 0;
+    }
+
+    .index-page .container p {
+        max-width: 100%;
+        font-size: clamp(1rem, 1vw, 1.2rem);
+        line-height: 1.5em;
+    } 
+    
+    .index-page .container h1 {
+        font-size: clamp(1.8rem, 4vw, 5rem);
+        line-height: 1.1em;
+        margin-bottom: 0;
+    }
+
+    .wedding-events-container{
+        position: absolute;
+        top: 40%;
+    }
+
+    .wedding-container,.birthday-container h3,p{
+        text-align: center !important;
+    }
+
+    .wedding-container h3{
+        text-align: center !important;
+    }
+
+    .founder-container p {
+        text-align: justify !important;
+    }
+
+    .details .details-div p{
+        text-align: left !important;
+    }
+
+    .image-right,.image-left{
+        width: 100% !important;
+        aspect-ratio: 1/1 !important;
+    }
+
+    .hamburger-menu {
+        height: 20px;
+        width: 30px;
+        position: relative;
+        margin-top: 0rem;
+        margin-left: 1.4rem;
+    }
+    
+    .navbar img{
+        width: 120px;
+        height: 23px;
+        object-fit: contain;
+    }
+    
+    .logo-container {
+        margin-top: 0rem;
+        margin-right: 1.4rem;
+    }
+     
+    .menu-items {
+        padding-left: 2rem;
+        padding-top: 0rem;
+    }
+ 
+
+
+}    
+
+
+
+/* Media query for two constraints width and height*/
+
+/* @media (max-width:768px) and (max-height:631px){
+    
+    .index-page .decorative-line-div{
+        display: none;
+    }
+
+    .index-page .container h1{
+        font-size: 2rem;
+        line-height: 1.1em;
+        margin-top: 4rem;
+    }
+    
+
+}  */
+
+/* Media Query for Navigation */
+
+@media (max-width: 1200px) and (min-width: 992px){
+    .navigation nav a{
+        padding: 20px 8px;
+    }
+}
+ 
